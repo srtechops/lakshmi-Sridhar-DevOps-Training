@@ -1,3 +1,6 @@
+variable "CIDR_BLOCK" {
+  default = "10.0.0.0/16"
+}
 variable "AMI_ID" {
    default = "ami-0521bc4c70257a054"
 }
